@@ -1,0 +1,32 @@
+{
+  "private": true,
+  "name": "remnote-ki-edit-bridge",
+  "version": "0.0.1",
+  "license": "MIT",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack serve --color --progress --no-open",
+    "build": "shx rm -rf dist && cross-env NODE_ENV=production webpack --color --progress && cd dist && bestzip ../PluginZip.zip ./*",
+    "check-types": "tsc"
+  },
+  "dependencies": {
+    "@remnote/plugin-sdk": "^0.0.46",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "@types/react": "^17.0.80",
+    "@types/react-dom": "^17.0.25",
+    "bestzip": "^2.2.1",
+    "copy-webpack-plugin": "^11.0.0",
+    "cross-env": "^7.0.3",
+    "esbuild-loader": "^2.21.0",
+    "glob": "^10.3.12",
+    "html-webpack-plugin": "^5.6.0",
+    "shx": "^0.3.4",
+    "typescript": "^5.4.5",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
+  }
+}

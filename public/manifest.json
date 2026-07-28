@@ -1,0 +1,27 @@
+{
+  "manifestVersion": 1,
+  "id": "ki-edit-bridge",
+  "name": "KI-Edit Bridge",
+  "author": "Julius Schornig",
+  "repoUrl": "https://github.com/Julimpool/Remnote-KI-Tag-Plugin",
+  "version": {
+    "major": 0,
+    "minor": 0,
+    "patch": 1
+  },
+  "description": "Spiegelt das eingebaute Edit-Later-Power-Up auf einen normalen, per API durchsuchbaren Tag namens KI-Edit.",
+  "theme": [],
+  "enableOnMobile": false,
+  "requestNative": false,
+  "requiredScopes": [
+    {
+      "type": "All",
+      "level": "ReadCreateModify"
+    },
+    {
+      "type": "Powerup",
+      "powerupCode": "e",
+      "level": "Read"
+    }
+  ]
+}
