@@ -1,4 +1,4 @@
-# KI-Edit Bridge
+# KI-Edit Bridge Spielerei
 
 RemNote-Plugin, das das eingebaute **Edit Later**-Power-Up auf einen ganz normalen Tag
 namens **KI-Edit** spiegelt. Normale Tags sind – anders als Power-Ups – über die
