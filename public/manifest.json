@@ -7,7 +7,7 @@
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 1
+    "patch": 2
   },
   "description": "Spiegelt das eingebaute Edit-Later-Power-Up auf einen normalen, per API durchsuchbaren Tag namens KI-Edit.",
   "theme": [],
